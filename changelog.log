@@ -1,0 +1,14 @@
+Version: 2.5.0
+
+[CHANGELOG]
+・Reworked the official map "Osaka"
+・Improved the resolution of the paint brush
+・Added an experimental color palette for upcoming controller support
+
+・Improved the stability of the 3D color picker
+・Fixed an issue where collision detection still applied to invisible players in "Gyakusan Chicken Race" (Reverse Chicken Race)
+・Fixed an issue where the displayed paint in "Gyakusan Chicken Race" was occasionally not synchronized
+
+Teaser: A collaboration map will be released mid-next week!
+
+AUTO UPDATE LAUNCHER BY: GL-TECH SUPPORT
