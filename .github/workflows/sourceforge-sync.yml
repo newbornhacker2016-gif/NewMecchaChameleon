@@ -1,5 +1,8 @@
 name: Sync to SourceForge
-
+concurrency: 
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+  
 on:
   push:
     branches: [ main ]  # Change to "master" if your default branch is named master
