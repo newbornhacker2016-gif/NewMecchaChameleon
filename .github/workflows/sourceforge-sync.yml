@@ -23,4 +23,5 @@ jobs:
           REPO: ssh://gltechsupport@git.code.sf.net/p/newmecchachameleon/code
           BRANCH: main
           FOLDER: .
+          SQUASH_KNOWN_HOSTS: "true" # <--- ADD THIS EXACT LINE
           SSH_PRIVATE_KEY: ${{ secrets.SF_SSH_KEY }}
