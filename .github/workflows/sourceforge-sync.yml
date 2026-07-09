@@ -19,8 +19,8 @@ jobs:
 
       - name: Push to SourceForge
         uses: s0/git-publish-subdir-action@v2.6.0
-        env:
-          REPO: git.code.sf.net/p/newmecchachameleon/code
+       env:
+          REPO: ssh://gltechsupport@git.code.sf.net/p/newmecchachameleon/code
           BRANCH: main
-          FOLDER: .  # <--- ADD THIS EXACT LINE
+          FOLDER: .
           SSH_PRIVATE_KEY: ${{ secrets.SF_SSH_KEY }}
