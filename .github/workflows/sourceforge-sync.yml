@@ -1,0 +1,21 @@
+name: Sync to SourceForge
+
+on:
+  push:
+    branches: [ main ]  # Change to "master" if your default branch is named master
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Crucial to fetch all history for a proper push
+
+      - name: Push to SourceForge
+        uses: s0/git-publish-subdir-action@v2.6.0
+        env:
+          REPO: git.code.sf.net/p/newmecchachameleon/code # Replace with your exact SF repo URL
+          BRANCH: main
+          SSH_PRIVATE_KEY: ${{ secrets.SF_SSH_KEY }}
