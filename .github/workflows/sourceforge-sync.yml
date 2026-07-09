@@ -1,11 +1,12 @@
 name: Sync to SourceForge
+
+on:
+  push:
+    branches: [ main ]
+
 concurrency: 
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
-  
-on:
-  push:
-    branches: [ main ]  # Change to "master" if your default branch is named master
 
 jobs:
   sync:
@@ -14,11 +15,12 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0  # Crucial to fetch all history for a proper push
+          fetch-depth: 0
 
       - name: Push to SourceForge
         uses: s0/git-publish-subdir-action@v2.6.0
         env:
-          REPO: git.code.sf.net/p/newmecchachameleon/code # Replace with your exact SF repo URL
+          REPO: git.code.sf.net/p/newmecchachameleon/code
           BRANCH: main
+          FOLDER: .  # <--- ADD THIS EXACT LINE
           SSH_PRIVATE_KEY: ${{ secrets.SF_SSH_KEY }}
