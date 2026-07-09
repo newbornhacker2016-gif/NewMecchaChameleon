@@ -19,7 +19,7 @@ jobs:
 
       - name: Push to SourceForge
         uses: s0/git-publish-subdir-action@v2.6.0
-       env:
+        env:
           REPO: ssh://gltechsupport@git.code.sf.net/p/newmecchachameleon/code
           BRANCH: main
           FOLDER: .
