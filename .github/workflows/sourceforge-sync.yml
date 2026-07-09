@@ -17,11 +17,16 @@ jobs:
         with:
           fetch-depth: 0
 
+      # This step explicitly tells the runner to trust SourceForge's server fingerprint
+      - name: Configure SSH Known Hosts
+        run: |
+          mkdir -p ~/.ssh
+          ssh-keyscan git.code.sf.net >> ~/.ssh/known_hosts
+
       - name: Push to SourceForge
         uses: s0/git-publish-subdir-action@v2.6.0
         env:
           REPO: ssh://gltechsupport@git.code.sf.net/p/newmecchachameleon/code
           BRANCH: main
           FOLDER: .
-          SQUASH_KNOWN_HOSTS: "true" # <--- ADD THIS EXACT LINE
           SSH_PRIVATE_KEY: ${{ secrets.SF_SSH_KEY }}
