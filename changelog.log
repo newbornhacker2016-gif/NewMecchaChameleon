@@ -1,10 +1,10 @@
-Version: 2.5.1
+Version: 2.6.0
 
 [CHANGELOG]
-・Implemented countermeasures against a cheat that grants an excessive number of recommendations
-・Implemented countermeasures against rapid-fire cheats
-・Fixed an issue where players could go out of bounds on the Osaka map
+・Added the collaboration map "HIKAKIN Museum"
+Special collaboration-exclusive gimmicks are available.
+・Controller support alpha version (UI operation is not supported)
+・Added Japan, South Korea, and East Asia to the region tags
 
-
-AUTO UPDATE LAUNCHER BY: GL-TECH SUPPORT
-TEST2
+・Fixed an issue where the collision detection did not disappear when the clone was hidden
+・Adjusted the Hunter's field of view (FOV) from 100 to 105
