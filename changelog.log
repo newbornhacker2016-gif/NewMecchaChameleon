@@ -1,10 +1,7 @@
-Version: 2.6.0
+Version: 2.7.0
 
 [CHANGELOG]
-・Added the collaboration map "HIKAKIN Museum"
-Special collaboration-exclusive gimmicks are available.
-・Controller support alpha version (UI operation is not supported)
-・Added Japan, South Korea, and East Asia to the region tags
-
-・Fixed an issue where the collision detection did not disappear when the clone was hidden
-・Adjusted the Hunter's field of view (FOV) from 100 to 105
+・New official map "Egypt" has been added.
+・When playing on random maps, you can now toggle ON/OFF whether to include each map in the lottery. Collaboration maps are set to OFF by default.
+・Added random elements to the official map "Penguin Hotel".
+・Fixed an issue where players could get stuck too deeply into walls on the official map "HIKAKIN Museum".
