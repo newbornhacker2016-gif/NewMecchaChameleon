@@ -5,3 +5,4 @@ Version: 2.7.1
 ・When playing on random maps, you can now toggle ON/OFF whether to include each map in the lottery. Collaboration maps are set to OFF by default.
 ・Added random elements to the official map "Penguin Hotel".
 ・Fixed an issue where players could get stuck too deeply into walls on the official map "HIKAKIN Museum".
+・Fixed auto close
