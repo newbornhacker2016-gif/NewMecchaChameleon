@@ -1,8 +1,8 @@
-Version: 2.7.1
+Version: 2.8.0
 
 [CHANGELOG]
-・New official map "Egypt" has been added.
-・When playing on random maps, you can now toggle ON/OFF whether to include each map in the lottery. Collaboration maps are set to OFF by default.
-・Added random elements to the official map "Penguin Hotel".
-・Fixed an issue where players could get stuck too deeply into walls on the official map "HIKAKIN Museum".
-・Fixed auto close
+・Added a new map, "Death Burger"
+
+・Inappropriate words, or words prohibited from being shown on stream in certain regions, are now blocked in nameplates and text chat
+・Fixed an issue where the spectator UI could not be hidden using the Control+Shift+H command
+・Fixed an issue where buttons became unclickable if the Mod download screen appeared while in Paint Mode
