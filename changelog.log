@@ -1,8 +1,8 @@
-Version: 2.8.0
+Version: 2.9.0
 
 [CHANGELOG]
-・Added a new map, "Death Burger"
 
-・Inappropriate words, or words prohibited from being shown on stream in certain regions, are now blocked in nameplates and text chat
-・Fixed an issue where the spectator UI could not be hidden using the Control+Shift+H command
-・Fixed an issue where buttons became unclickable if the Mod download screen appeared while in Paint Mode
+・Glow-in-the-dark paint is now available.
+
+・Slightly improved paint performance.
+・Adjusted the volume of the HIKAKIN Museum exclusive taunt sound.
