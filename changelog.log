@@ -1,8 +1,10 @@
-Version: 3.0.0
+Version: 3.1.0
 
 [CHANGELOG]
-
-・Added new official map "Greece"
-
-Server Maintenance -
-Due to EOS server maintenance, there will be a service outage of up to 120 minutes starting from July 21st at 3:00 AM JST.
+・Added the official collaboration map "Garten of Banban"
+・Made non-UI operations controllable with a game controller
+・Added a "Medium" setting for shadow quality
+・Fixed an issue where the brush movement speed varied based on FPS when painting with a controller
+・Improved GPU performance
+・Fixed an issue where the sampling position of the 3D eyedropper tool was off
+・Security patch for MOD maps
