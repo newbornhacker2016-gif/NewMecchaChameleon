@@ -1,10 +1,6 @@
-Version: 3.1.0
+Version: 3.3.0
 
 [CHANGELOG]
-・Added the official collaboration map "Garten of Banban"
-・Made non-UI operations controllable with a game controller
-・Added a "Medium" setting for shadow quality
-・Fixed an issue where the brush movement speed varied based on FPS when painting with a controller
-・Improved GPU performance
-・Fixed an issue where the sampling position of the 3D eyedropper tool was off
-・Security patch for MOD maps
+・Added 12 new emotes
+・Removed the eyedropper button from the color palette
+・Added a new character body type, "Plump"
