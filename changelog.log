@@ -1,12 +1,6 @@
-Version: 3.3.0
+Version: 3.3.1
 
-[CHANGELOG 3.3.0]
-・Added a new character body type, "Plump"
-
-
-[CHANGELOG 3.2.0]
-・Added 12 new emotes
-・Removed the eyedropper button from the color palette
-About the safety of the game This issue was resolved in the previous version, 
-making it impossible to execute unrelated files such as malware. 
-This has also been confirmed with Steam Support.
+[CHANGELOG]
+・Fixed the Discord URL on the home screen
+・Fixed the physical collision for “Plump”
+・Further strengthened virus protection
