@@ -1,9 +1,6 @@
-Version: 3.3.2
+Version: 3.3.3
 
 [CHANGELOG]
-・Fixed an issue where server names and passwords were reset during specific actions.
-・Fixed an issue where the "Plump" character’s belly lacked a collision detection.
-・Adjusted the game settings UI for controllers.
-・Improved performance of the 3D Eyedropper.
-
-・Proximity voice chat is temporarily disabled as voice chat is currently undergoing a rework.
+✅ Added Performance Mode
+🔧 Fixed an issue where graphics settings were not being saved
+🔧 Fixed an issue where the 3D Eyedropper tool was not working
