@@ -1,6 +1,8 @@
-Version: 3.3.3
+Version: 3.4.0
 
 [CHANGELOG]
-✅ Added Performance Mode
-🔧 Fixed an issue where graphics settings were not being saved
-🔧 Fixed an issue where the 3D Eyedropper tool was not working
+・Applied character types to Hunters.
+
+・Fixed an issue where the Voice Input ON/OFF labels were reversed.
+・Added direct mouse support for the console color palette.
+・Fixed an issue where the cursor was locked at 30 fps in Paint Mode; brush size adjustments and right-click zoom are now smooth.
