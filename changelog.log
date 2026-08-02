@@ -1,14 +1,9 @@
-Version: 3.5.0
+Version: 3.5.1
 
 [CHANGELOG]
-・Added the collaboration map "Exit 8"
-・Added a feature to search for friends' servers
+Re-added the "Friend List"
+Online users are now prioritized at the top of the list.
 
-・Adjusted the color palette UI
-・Removed "FAQ" and "Friend List" from the options screen
-・Fixed an issue where server names spilled over in the search results
-・Fixed an issue where motion blur settings were not taking effect
-・Unified the hunter's body type to default in FPS mode
-・Fixed an issue where zooming with a controller was not working
-・Added button collision/detection to the UI "Back" action
-・Changed the microphone to be muted by default
+Applied camera sensitivity settings to Spectator Mode
+
+Adjusted the color palette
