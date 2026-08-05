@@ -1,9 +1,11 @@
-Version: 3.5.1
+Version: 3.5.3
 
 [CHANGELOG]
-Re-added the "Friend List"
-Online users are now prioritized at the top of the list.
+・Added options to invert XY axes for camera controls
+・Restored color themes from the color palette
+・Relaxed clipping/collision detection
 
-Applied camera sensitivity settings to Spectator Mode
-
-Adjusted the color palette
+・Fixed an issue where performance dropped on low-spec environments due to maps being added in updates; this may cause minor freezing when starting the game
+・Fixed an issue where the alpha value always reset to 1.0 during color adjustments
+・Fixed an issue where setting lightness to 0.0 in the color palette reset the hue to red
+・Fixed "Hue," "Saturation," and "Value" so they save correctly
