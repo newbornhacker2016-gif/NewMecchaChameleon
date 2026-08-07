@@ -1,11 +1,9 @@
-Version: 3.5.3
+Version: 3.6.0
 
 [CHANGELOG]
-・Added options to invert XY axes for camera controls
-・Restored color themes from the color palette
-・Relaxed clipping/collision detection
-
-・Fixed an issue where performance dropped on low-spec environments due to maps being added in updates; this may cause minor freezing when starting the game
-・Fixed an issue where the alpha value always reset to 1.0 during color adjustments
-・Fixed an issue where setting lightness to 0.0 in the color palette reset the hue to red
-・Fixed "Hue," "Saturation," and "Value" so they save correctly
+・Added a new map, "Deep Sea"
+・Game settings now persist after restarting
+・Added number input buttons
+・Added new words to the text profanity filter
+・Added a feature to reset "Eeyan" (Likes)
+・Reduced the file size for future updates
