@@ -1,9 +1,7 @@
-Version: 3.6.0
+Version: 3.6.1
 
 [CHANGELOG]
-・Added a new map, "Deep Sea"
-・Game settings now persist after restarting
-・Added number input buttons
-・Added new words to the text profanity filter
-・Added a feature to reset "Eeyan" (Likes)
-・Reduced the file size for future updates
+・Improved character behavior and significantly reduced performance drops caused by high player counts.
+・Fixed an issue where certain blocked words were inadvertently filtering out common words.
+
+・The Emote Contest results will be announced tomorrow!
