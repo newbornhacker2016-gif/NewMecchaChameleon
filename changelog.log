@@ -1,7 +1,4 @@
-Version: 3.6.1
+Version: 3.7.0
 
 [CHANGELOG]
-・Improved character behavior and significantly reduced performance drops caused by high player counts.
-・Fixed an issue where certain blocked words were inadvertently filtering out common words.
-
-・The Emote Contest results will be announced tomorrow!
+1st Emote Contest Results Announcement!
