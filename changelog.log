@@ -1,4 +1,6 @@
-Version: 3.7.0
+Version: 3.7.1
 
 [CHANGELOG]
-1st Emote Contest Results Announcement!
+・Fixed an issue in Basic Mode where the Hunter would not move to the map on certain Mod maps
+・Adjusted jump height
+・Adjusted part of the UI
