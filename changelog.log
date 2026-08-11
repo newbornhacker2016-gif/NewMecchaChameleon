@@ -1,6 +1,6 @@
-Version: 3.7.1
+Version: 3.7.2
 
 [CHANGELOG]
-・Fixed an issue in Basic Mode where the Hunter would not move to the map on certain Mod maps
-・Adjusted jump height
-・Adjusted part of the UI
+・Fixed an issue where character movement speed was incorrect.
+・Fixed an issue where players could exit the “Deep Sea” map.
+・Fixed an issue where the game would end even though a Hunter was still present under certain conditions.
