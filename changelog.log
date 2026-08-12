@@ -1,6 +1,8 @@
-Version: 3.7.2
+Version: 3.7.3
 
 [CHANGELOG]
-・Fixed an issue where character movement speed was incorrect.
-・Fixed an issue where players could exit the “Deep Sea” map.
-・Fixed an issue where the game would end even though a Hunter was still present under certain conditions.
+・Fixed a rare issue where the hunter would not move to the map.
+・Fixed an issue where pressing the numeric quick button allowed setting a value below the minimum limit.
+・Fixed an issue where player names/displays were glitching out.
+・Fixed an issue where X-axis movement was faster than Y-axis movement when painting with a controller.
+・Added movement speed settings for controller painting.
