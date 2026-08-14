@@ -1,8 +1,15 @@
-Version: 3.7.3
+Version: 3.8.0
 
 [CHANGELOG]
-・Fixed a rare issue where the hunter would not move to the map.
-・Fixed an issue where pressing the numeric quick button allowed setting a value below the minimum limit.
-・Fixed an issue where player names/displays were glitching out.
-・Fixed an issue where X-axis movement was faster than Y-axis movement when painting with a controller.
-・Added movement speed settings for controller painting.
+・Added new feature "Mo Eeyo" (Enough Already)
+Can force skip hiding time and answer reveal time by a unanimous vote.
+・Added new feature "BAN"
+The BAN list resets when the server is restarted.
+
+・Fixed an issue where hidden objects still had collision detection.
+・Fixed an issue where the camera moved abruptly when getting close to a wall while hiding.
+・Fixed an issue where players would become invisible during the answer reveal under certain conditions.
+・Fixed an issue where the player's jump height was too high.
+・Fixed an issue where hunters in TPS mode faced further upward than the direction they were actually looking.
+・The mic icon now lights up green when speaking in voice chat.
+・Fixed an issue where controller UI navigation was difficult in the User Management tab.
