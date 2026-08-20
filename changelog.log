@@ -1,10 +1,8 @@
-Version: 3.9.1
+Version: 4.0.0
 
 [CHANGELOG]
-・Added the new official map &quot;Shopping Mall&quot;
-
-・Fixed an issue where voice chat would momentarily turn on
-・Added ID display to the Player Management tab
-Please use the ID when user information is required for various purposes
-
-The next official map addition will be the last (excluding collaborations)
+・Added Petit Chameleon (x0.5)
+Can only be used if allowed by the host
+・Fixed an issue where players were floating off the ground
+・Fixed a rare issue where Hunters could not be eliminated while crouching
+・Fixed locations where players could get stuck
