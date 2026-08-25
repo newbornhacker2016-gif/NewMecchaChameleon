@@ -1,8 +1,5 @@
-Version: 4.0.0
+Version: 4.0.1
 
 [CHANGELOG]
-・Added Petit Chameleon (x0.5)
-Can only be used if allowed by the host
-・Fixed an issue where players were floating off the ground
-・Fixed a rare issue where Hunters could not be eliminated while crouching
-・Fixed locations where players could get stuck
+・To resolve the issue where the Hunter does not use TP at the start of the game, we have changed the behavior so that the Hunter cannot crouch while waiting.
+・We have mitigated the issue where the character's position shifts when switching to free camera mode.
