@@ -1,5 +1,11 @@
-Version: 4.0.1
+
 
 [CHANGELOG]
+Version: 4.0.2
+・Reduced network usage by approximately 50%
+・Adjusted the display of certain controller operation guides
+
+Version: 4.0.1
 ・To resolve the issue where the Hunter does not use TP at the start of the game, we have changed the behavior so that the Hunter cannot crouch while waiting.
 ・We have mitigated the issue where the character's position shifts when switching to free camera mode.
+
