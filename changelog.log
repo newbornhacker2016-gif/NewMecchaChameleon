@@ -1,11 +1,25 @@
+[CHANGELOG] 
+BIG UPDATE 4.1.0
 
+・Added new official maps: "Kyoto" and "Art Museum"
+・Reworked "Greece" and "Egypt"
+・Replaced the legacy server browser with an 5-character alphanumeric join code search
+Join codes can also be verified in-game
 
-[CHANGELOG]
-Version: 4.0.2
-・Reduced network usage by approximately 50%
-・Adjusted the display of certain controller operation guides
-
-Version: 4.0.1
-・To resolve the issue where the Hunter does not use TP at the start of the game, we have changed the behavior so that the Hunter cannot crouch while waiting.
-・We have mitigated the issue where the character's position shifts when switching to free camera mode.
-
+・In-progress games are now hidden during public searches (can be toggled in options)
+This helps direct players toward waiting servers
+・Server elapsed time is now displayed on the search screen
+・The game now ends if the hunter count reaches 0 while hunters are waiting
+・Fixed an issue where server player count displayed as 0
+・Added a 1-second cooldown to taunts
+・Increased the minimum forced taunt interval from 1 second to 5 seconds
+・Reduced network data usage during painting by 40%
+・Adjusted the maximum FPS setting limit from 239 fps to 240 fps
+・Fixed an issue where ammo settings reset every match
+・Fixed an issue that may have caused crashes for some users during gameplay
+・A sound effect now plays when toggling voice chat states
+・A region tag must now be selected
+・Fixed an issue where stick-based paint controls varied in speed depending on the framerate
+・Fixed an issue where stick-based paint controls moved slightly faster in the upward direction
+・Improved camera controls for hiders
+・Mitigated performance drops when expanding the options menu
