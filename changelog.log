@@ -1,25 +1,16 @@
-[CHANGELOG] 
-BIG UPDATE 4.1.0
+[CHANGELOG V4.1.1] 
 
-・Added new official maps: "Kyoto" and "Art Museum"
-・Reworked "Greece" and "Egypt"
-・Replaced the legacy server browser with an 5-character alphanumeric join code search
-Join codes can also be verified in-game
-
-・In-progress games are now hidden during public searches (can be toggled in options)
-This helps direct players toward waiting servers
-・Server elapsed time is now displayed on the search screen
-・The game now ends if the hunter count reaches 0 while hunters are waiting
-・Fixed an issue where server player count displayed as 0
-・Added a 1-second cooldown to taunts
-・Increased the minimum forced taunt interval from 1 second to 5 seconds
-・Reduced network data usage during painting by 40%
-・Adjusted the maximum FPS setting limit from 239 fps to 240 fps
-・Fixed an issue where ammo settings reset every match
-・Fixed an issue that may have caused crashes for some users during gameplay
-・A sound effect now plays when toggling voice chat states
-・A region tag must now be selected
-・Fixed an issue where stick-based paint controls varied in speed depending on the framerate
-・Fixed an issue where stick-based paint controls moved slightly faster in the upward direction
-・Improved camera controls for hiders
-・Mitigated performance drops when expanding the options menu
+✅ Added an option to disable voice chat
+✅ Enabled painting via screen touch
+✅ Added a mic status icon to the top of the screen when in use
+🔧 Fixed an issue where switching spectate targets with LT wasn't working
+🔧 Fixed an issue where pressing the refresh button in the User Management tab caused the UI to freeze
+🔧 Fixed an issue where certain maps were loaded by default
+🔧 Adjusted the A/B/X/Y button prompt displays for Switch 2
+🔧 Changed incoming voice chat audio to muted by default
+🔧 Fixed an issue where joining with many players at once bypassed the maximum player limit
+🔧 Fixed an issue where changing brush size with the analog stick caused it to snap back to its original position
+🔧 Temporarily reduced the maximum host player limit on Switch 2 from 12 to 10
+(Note: We are currently investigating the ongoing crash issues)
+🔧 Fixed an issue where switching to mouse controls at the start of Paint Mode moved the cursor to an unintended position
+🔧 Fixed an issue where the cursor experienced heavy drift/pull after specific actions
